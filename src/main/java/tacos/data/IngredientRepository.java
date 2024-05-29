@@ -1,6 +1,7 @@
 package tacos.data;
 
 import java.util.Optional;
+
 import tacos.Ingredient;
 
 public interface IngredientRepository {
