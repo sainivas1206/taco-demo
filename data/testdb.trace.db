@@ -558,3 +558,6 @@ insert into Taco_Order (delivery_name, delivery_street, delivery_city, delivery_
 2024-05-29 11:36:36.255062+05:30 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLDataException: Value too long for column "DELIVERY_STATE CHARACTER VARYING(2)": "'Alabama' (7)"; SQL statement:
 insert into Taco_Order (delivery_name, delivery_street, delivery_city, delivery_state, delivery_zip, cc_number, cc_expiration, cc_cvv, placed_at) values (?,?,?,?,?,?,?,?,?) [22001-224]
+2024-06-01 11:27:19.132215+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "show [*]create table INGREDIENT"; SQL statement:
+show create table INGREDIENT [42000-224]
